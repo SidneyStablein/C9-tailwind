@@ -3,18 +3,108 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Homepage</title>
     <link rel="stylesheet" href="screen.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              sand: '#F8F7F4',
+            }
+          }
+        }
+      }
+    </script>
   </head>
   <body>
-    <h1>Home</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html" class="active">Home</a></li>
-        <li><a href="about.html">About</a></li>
-      </ul>
-    </nav>
+    <div class="container mx-auto">
+    <header>
+      <div class="flex flex-row">
+        <div class="border-2 border-slate-100 rounded-lg basis-1/4">Popular</div>
+        <div class="bg-sand rounded-full basis-1/6">Discover</div>
+        <div class="basis-1/6">Animation</div>
+        <div class="basis-1/6">Branding</div>
+        <div class="basis-1/6">Illustration</div>
+        <div class="basis-1/6">Mobile</div>
+        <div class="basis-1/6">Print</div>
+        <div class="basis-1/2">Filter</div>
+      </div>
+    <div class="group">
+    <ul style="display: flex; justify-content: center;">
+      <li class="details mr-5">
+        <div class="thumbnail"><img src="earthday.png" alt="filler"></div>
+        <div class="flex flex-row">
+          <div class="basis-1/6"><img src="cat.png" alt="circle"></div>
+          <div class="basis-1/6"><h2>Aden Swanson</h2></div>
+          <div class="basis-1/6"><img src="heart.png" alt="Heart icon"></div>
+          <div class="basis-1/4"><h3>193</h3></div>
+          <div class="basis-1/6"><img class="eye" src="eye.png"></div>
+          <div class="basis-1/4"><h3>67.4k</h3></div>
+        </div>
+      </li>
+      <li class="details mr-5">
+        <div class="thumbnail"><img src="arrows.png" alt="filler"></div>
+        <div class="flex flex-row">
+          <div class="basis-1/6"><img src="piper.png" alt="circle"></div>
+          <div class="basis-1/6"><h2>Service Express</h2></div>
+          <div class="basis-1/6"><img src="heart.png" alt="Heart icon"></div>
+          <div class="basis-1/4"><h3>63</h3></div>
+          <div class="basis-1/6"><img class="eye"src="eye.png"></div>
+          <div class="basis-1/4"><h3>20.4k</h3></div>
+        </div>
+      </li>
+      <li class="details">
+        <div class="thumbnail"><img src="pills.png" alt="filler"></div>
+        <div class="flex flex-row">
+          <div class="basis-1/6"><img src="lab.png" alt="circle"></div>
+          <div class="basis-1/6"><h2>Sidney Stablein</h2></div>
+          <div class="basis-1/6"><img src="heart.png" alt="Heart icon"></div>
+          <div class="basis-1/4"><h3>102</h3></div>
+          <div class="basis-1/6"><img class="eye" src="eye.png"></div>
+          <div class="basis-1/4"><h3>45.1k</h3></div>
+        </div>
+      </li>
+    </ul>
+    <ul style="display: flex; justify-content: center;">
+      <li class="details mr-5">
+        <div class="thumbnail"><img src="abstract.png" alt="filler"></div>
+        <div class="flex flex-row">
+          <div class="basis-1/6"><img src="olive.png" alt="circle"></div>
+          <div class="basis-1/6"><h2>Steve Smith</h2></div>
+          <div class="basis-1/6"><img src="heart.png" alt="Heart icon"></div>
+          <div class="basis-1/4"><h3>234</h3></div>
+          <div class="basis-1/6"><img class="eye" src="eye.png"></div>
+          <div class="basis-1/4"><h3>75.9k</h3></div>
+        </div>
+      </li>
+      <li class="details mr-5">
+        <div class="thumbnail"><img src="announcement.png" alt="filler"></div>
+        <div class="flex flex-row">
+          <div class="basis-1/6"><img src="bulldog.png" alt="circle"></div>
+          <div class="basis-1/6"><h2>Daisy Media</h2></div>
+          <div class="basis-1/6"><img src="heart.png" alt="Heart icon"></div>
+          <div class="basis-1/4"><h3>193</h3></div>
+          <div class="basis-1/6"><img class="eye" src="eye.png"></div>
+          <div class="basis-1/4"><h3>67.4k</h3></div>
+        </div>
+      </li>
+      <li class="details">
+        <div class="thumbnail"><img src="confetti.png" alt="filler"></div>
+        <div class="flex flex-row">
+          <div class="basis-1/6"><img src="piper2.png" alt="circle"></div>
+          <div class="basis-1/2"><h2>MW Designs</h2></div>
+          <div class="basis-1/6"><img src="heart.png" alt="Heart icon"></div>
+          <div class="basis-1/4"><h3>53</h3></div>
+          <div class="basis-1/6"><img class="eye" src="eye.png"></div>
+          <div class="basis-1/4"><h3>13.5k</h3></div>
+        </div>
+      </li>
+    </ul>
+    </ul>
+    </div>
+  </div>
     <script src="index.js"></script>
   </body>
 </html>
