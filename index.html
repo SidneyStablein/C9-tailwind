@@ -12,6 +12,7 @@
           extend: {
             colors: {
               sand: '#F8F7F4',
+              beige: '#E7E6E4',
             }
           }
         }
@@ -22,14 +23,19 @@
     <div class="container mx-auto">
     <header>
       <div class="flex flex-row">
-        <div class="border-2 border-slate-100 rounded-lg basis-1/4">Popular</div>
-        <div class="bg-sand rounded-full basis-1/6">Discover</div>
-        <div class="basis-1/6">Animation</div>
-        <div class="basis-1/6">Branding</div>
-        <div class="basis-1/6">Illustration</div>
-        <div class="basis-1/6">Mobile</div>
-        <div class="basis-1/6">Print</div>
-        <div class="basis-1/2">Filter</div>
+        <button id="dropdownDefaultButton" data-dropdown-toggle="dropdown" class="focus:ring-4 hover:bg-beige border-2 border-slate-100 rounded-lg basis-1/5 p-0 ml-32 mr-20 inline-flex items-center dark:bg-beige-600 dark:hover:bg-beige dark:focus:ring-beige pl-12"type="button">Popular<svg class="w-2.5 h-2.5 ms-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
+          </svg>
+          </button>
+        <button class="bg-sand rounded-full basis-1/6 mr-3">Discover</button>
+        <button class="basis-1/6 font-semibold mr-3">Animation</button>
+        <button class="basis-1/6 font-semibold mr-3">Branding</button>
+        <button class="basis-1/6 font-semibold mr-3">Illustration</button>
+        <button class="basis-1/6 font-semibold mr-3">Mobile</button>
+        <button class="basis-1/6 font-semibold mr-3">Print</button>
+        <button id="dropdownDefaultButton" data-dropdown-toggle="dropdown" class="focus:ring-4 hover:bg-beige border-2 border-slate-100 rounded-full basis-1/5 p-0 ml-32 mr-20 inline-flex items-center dark:bg-beige-600 dark:hover:bg-beige dark:focus:ring-beige pl-12"type="button">Filters<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-filter" viewBox="0 0 16 16">
+          <path d="M6 10.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1h-3a.5.5 0 0 1-.5-.5m-2-3a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5m-2-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5"/>
+        </svg>
       </div>
     <div class="group">
     <ul style="display: flex; justify-content: center;">
